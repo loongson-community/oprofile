@@ -82,6 +82,7 @@ static struct cpu_descr const cpu_descrs[MAX_CPU_TYPE] = {
    	{ "Intel Core/i7", "i386/core_i7", CPU_CORE_I7, 4 },
    	{ "Intel Atom", "i386/atom", CPU_ATOM, 2 },
 	{ "Loongson2", "mips/loongson2", CPU_MIPS_LOONGSON2, 2 },
+	{ "Loongson3", "mips/loongson3", CPU_MIPS_LOONGSON3, 3 },
 	{ "Intel Nehalem microarchitecture", "i386/nehalem", CPU_NEHALEM, 4 },
 	{ "ARM Cortex-A9", "arm/armv7-ca9", CPU_ARM_V7_CA9, 7 },
 	{ "MIPS 74K", "mips/74K", CPU_MIPS_74K, 4},
@@ -623,6 +624,7 @@ static struct mips_cpu_descr mips_cpu_descrs[] = {
 	{ .key = "R12000", .value = "mips/r12000" },		/* CPU_R12000 */
 	{ .key = "R14000", .value = "mips/r12000" },		/* CPU_R14000 */
 	{ .key = "ICT Loongson-2", .value = "mips/loongson2" },	/* CPU_LOONGSON2 */
+	{ .key = "ICT Loongson-3", .value = "mips/loongson3" },	/* CPU_LOONGSON3 */
 	{ .key = NULL, .value = NULL }
 };
 

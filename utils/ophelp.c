@@ -764,6 +764,11 @@ int main(int argc, char const * argv[])
 			"See loongson2 RISC Microprocessor Family Reference Manual\n";
 		break;
 
+	case CPU_MIPS_LOONGSON3:
+		event_doc =
+			"See loongson3 RISC Microprocessor Family Reference Manual\n";
+		break;
+
 	case CPU_PPC_E500:
 	case CPU_PPC_E500_2:
 	case CPU_PPC_E500MC:

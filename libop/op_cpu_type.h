@@ -68,6 +68,7 @@ typedef enum {
    	CPU_CORE_I7, /* Intel Core i7, Nehalem */
    	CPU_ATOM, /* First generation Intel Atom */
 	CPU_MIPS_LOONGSON2, /* < loongson2 family */
+	CPU_MIPS_LOONGSON3, /* < loongson3 family */
 	CPU_NEHALEM, /* Intel Nehalem microarchitecture */
 	CPU_ARM_V7_CA9, /**< ARM Cortex-A9 */
 	CPU_MIPS_74K, /**< MIPS 74K */

@@ -58,7 +58,7 @@ static double op_cpu_freq_cpuinfo(void)
 			fval = uval / 1E6;
 			break;
 		}
-		/* mips including loongson2 */
+		/* mips including loongson2/3 */
 		if (sscanf(line, "BogoMIPS		: %lu", &uval) == 1) {
 			fval = uval * 3 / 2;
 			break;
